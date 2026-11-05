@@ -1,0 +1,8 @@
+,units_sold
+units_sold,1.0
+current_price,-0.037
+discount_pct,0.254
+price_change_pct,-0.254
+inventory_level,-0.099
+stockout_flag,0.017
+demand_index,0.57

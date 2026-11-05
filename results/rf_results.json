@@ -1,0 +1,33 @@
+{
+ "model": "Random Forest",
+ "best_params": {
+  "n_estimators": "300",
+  "min_samples_split": "5",
+  "min_samples_leaf": "2",
+  "max_features": "0.5",
+  "max_depth": "10",
+  "bootstrap": "True"
+ },
+ "search_space": {
+  "n_estimators": "[100, 200, 300, 500]",
+  "max_depth": "[None, 10, 20, 30]",
+  "min_samples_split": "[2, 5, 10]",
+  "min_samples_leaf": "[1, 2, 4]",
+  "max_features": "['sqrt', 'log2', 0.5]",
+  "bootstrap": "[True, False]"
+ },
+ "n_iter": 20,
+ "cv_splits": 3,
+ "best_cv_mae": 4.526685804274035,
+ "train_time_sec": 58.1,
+ "train_mae": 3.7984839923920837,
+ "holdout_metrics": {
+  "MAE": 4.28970701575677,
+  "RMSE": 5.950809746382311,
+  "MAPE": 11.277757637362926,
+  "WAPE": 10.586593576700137,
+  "sMAPE": 11.08113275687617,
+  "MASE": 0.6152706004187215
+ },
+ "n_features": 42
+}

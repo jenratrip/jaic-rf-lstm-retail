@@ -1,0 +1,6 @@
+policy,rate_MAE,rate_bias,rate_WAPE_%
+"Static mean (s,S)",2.826,2.568,6.982
+RF,3.186,0.464,7.869
+LSTM,5.14,3.794,12.697
+RF (7d-smoothed),2.351,1.046,5.808
+LSTM (7d-smoothed),4.35,3.943,10.747

@@ -1,0 +1,17 @@
+group,model,WAPE,MAE
+Accessories,RF,10.158,4.045
+Accessories,LSTM,10.071,4.01
+Apparel,RF,10.347,4.458
+Apparel,LSTM,10.264,4.422
+Beauty,RF,11.129,4.316
+Beauty,LSTM,11.027,4.277
+Electronics,RF,10.681,4.406
+Electronics,LSTM,10.471,4.32
+Groceries,RF,10.345,4.168
+Groceries,LSTM,10.313,4.155
+Home,RF,10.789,3.95
+Home,LSTM,10.605,3.882
+Shoes,RF,10.409,4.722
+Shoes,LSTM,10.527,4.775
+Sports,RF,10.916,4.252
+Sports,LSTM,10.932,4.258

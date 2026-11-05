@@ -1,0 +1,59 @@
+{
+  "category": {
+    "Accessories": 0,
+    "Apparel": 1,
+    "Beauty": 2,
+    "Electronics": 3,
+    "Groceries": 4,
+    "Home": 5,
+    "Shoes": 6,
+    "Sports": 7
+  },
+  "brand": {
+    "Adidas": 0,
+    "Apple": 1,
+    "Asics": 2,
+    "Bose": 3,
+    "Coach": 4,
+    "DailyFresh": 5,
+    "Decathlon": 6,
+    "Dove": 7,
+    "Fitbit": 8,
+    "Fossil": 9,
+    "FreshFarm": 10,
+    "GreatValue": 11,
+    "H&M": 12,
+    "HomeGoods": 13,
+    "Ikea": 14,
+    "Loreal": 15,
+    "Mainstays": 16,
+    "Maybelline": 17,
+    "NatureBest": 18,
+    "Neutrogena": 19,
+    "New Balance": 20,
+    "Nike": 21,
+    "Olay": 22,
+    "OrganicCo": 23,
+    "Puma": 24,
+    "Ray-Ban": 25,
+    "Samsung": 26,
+    "Sony": 27,
+    "Spalding": 28,
+    "Target": 29,
+    "Under Armour": 30,
+    "Wayfair": 31,
+    "Wilson": 32
+  },
+  "season": {
+    "Spring": 0,
+    "Winter": 1
+  },
+  "promotion_type": {
+    "Buy One Get One": 0,
+    "Clearance": 1,
+    "Flash Sale": 2,
+    "Member Offer": 3,
+    "None": 4,
+    "Percentage Discount": 5
+  }
+}

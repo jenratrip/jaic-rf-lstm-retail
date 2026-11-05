@@ -1,0 +1,2 @@
+comparison,mean_MAE_diff(other-RF),CI95_low,CI95_high,wilcoxon_p
+RF vs LSTM,-0.02719,-0.0577,0.00426,0.22702

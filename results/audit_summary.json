@@ -1,0 +1,37 @@
+{
+ "raw_rows": 172800,
+ "n_products": 640,
+ "date_min": "2026-01-01",
+ "date_max": "2026-03-31",
+ "n_days": 90,
+ "rows_per_product_day": {
+  "3": 57600
+ },
+ "regions_per_product": {
+  "3": 640
+ },
+ "regions_per_product_day": {
+  "3": 57600
+ },
+ "categories_per_product": {
+  "1": 640
+ },
+ "channels_per_product_day": {
+  "2": 38518,
+  "3": 12678,
+  "1": 6404
+ },
+ "promo_share_rows_%": 42.04,
+ "units_sold_describe_raw_rows": {
+  "count": 172800.0,
+  "mean": 14.121,
+  "std": 8.345,
+  "min": 0.0,
+  "25%": 7.0,
+  "50%": 13.0,
+  "75%": 20.0,
+  "max": 69.0
+ },
+ "n_zero_units_raw_rows": 9,
+ "stockout_share_%": 0.13
+}

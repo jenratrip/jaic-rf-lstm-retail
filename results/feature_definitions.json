@@ -1,0 +1,208 @@
+{
+ "feature_sets": {
+  "original": [
+   "current_price",
+   "base_price",
+   "price_change_pct",
+   "discount_pct",
+   "price_ratio",
+   "discount_flag",
+   "effective_price",
+   "has_promotion",
+   "promotion_type_enc",
+   "promo_Buy One Get One",
+   "promo_Clearance",
+   "promo_Flash Sale",
+   "promo_Member Offer",
+   "promo_None",
+   "promo_Percentage Discount",
+   "day_of_week",
+   "day_of_month",
+   "week_of_year",
+   "month",
+   "is_weekend",
+   "lag_1",
+   "lag_7",
+   "lag_14",
+   "lag_30",
+   "rolling_mean_7d",
+   "rolling_mean_14d",
+   "rolling_mean_30d",
+   "rolling_std_7d",
+   "rolling_std_14d",
+   "rolling_std_30d",
+   "rolling_max_7d",
+   "rolling_max_14d",
+   "rolling_max_30d",
+   "inventory_level",
+   "inventory_lag1",
+   "inventory_ratio",
+   "days_of_supply",
+   "stockout_flag",
+   "category_enc",
+   "brand_enc",
+   "season_enc",
+   "demand_index"
+  ],
+  "strict": [
+   "current_price",
+   "base_price",
+   "price_change_pct",
+   "discount_pct",
+   "price_ratio",
+   "discount_flag",
+   "effective_price",
+   "has_promotion",
+   "promotion_type_enc",
+   "promo_Buy One Get One",
+   "promo_Clearance",
+   "promo_Flash Sale",
+   "promo_Member Offer",
+   "promo_None",
+   "promo_Percentage Discount",
+   "promo_share",
+   "day_of_week",
+   "day_of_month",
+   "week_of_year",
+   "month",
+   "is_weekend",
+   "lag_1",
+   "lag_7",
+   "lag_14",
+   "lag_30",
+   "rolling_mean_7d",
+   "rolling_mean_14d",
+   "rolling_mean_30d",
+   "rolling_std_7d",
+   "rolling_std_14d",
+   "rolling_std_30d",
+   "rolling_max_7d",
+   "rolling_max_14d",
+   "rolling_max_30d",
+   "inventory_lag1",
+   "inventory_ratio_lag1",
+   "days_of_supply_lag1",
+   "stockout_lag1",
+   "category_enc",
+   "brand_enc",
+   "season_enc",
+   "demand_index_lag1"
+  ]
+ },
+ "groups_strict": {
+  "price": [
+   "current_price",
+   "base_price",
+   "price_change_pct",
+   "discount_pct",
+   "price_ratio",
+   "discount_flag",
+   "effective_price"
+  ],
+  "promotion": [
+   "has_promotion",
+   "promotion_type_enc",
+   "promo_Buy One Get One",
+   "promo_Clearance",
+   "promo_Flash Sale",
+   "promo_Member Offer",
+   "promo_None",
+   "promo_Percentage Discount",
+   "promo_share"
+  ],
+  "temporal": [
+   "day_of_week",
+   "day_of_month",
+   "week_of_year",
+   "month",
+   "is_weekend"
+  ],
+  "lag": [
+   "lag_1",
+   "lag_7",
+   "lag_14",
+   "lag_30"
+  ],
+  "rolling": [
+   "rolling_mean_7d",
+   "rolling_mean_14d",
+   "rolling_mean_30d",
+   "rolling_std_7d",
+   "rolling_std_14d",
+   "rolling_std_30d",
+   "rolling_max_7d",
+   "rolling_max_14d",
+   "rolling_max_30d"
+  ],
+  "inventory": [
+   "inventory_lag1",
+   "inventory_ratio_lag1",
+   "days_of_supply_lag1",
+   "stockout_lag1"
+  ],
+  "context": [
+   "category_enc",
+   "brand_enc",
+   "season_enc",
+   "demand_index_lag1"
+  ]
+ },
+ "groups_original": {
+  "price": [
+   "current_price",
+   "base_price",
+   "price_change_pct",
+   "discount_pct",
+   "price_ratio",
+   "discount_flag",
+   "effective_price"
+  ],
+  "promotion": [
+   "has_promotion",
+   "promotion_type_enc",
+   "promo_Buy One Get One",
+   "promo_Clearance",
+   "promo_Flash Sale",
+   "promo_Member Offer",
+   "promo_None",
+   "promo_Percentage Discount"
+  ],
+  "temporal": [
+   "day_of_week",
+   "day_of_month",
+   "week_of_year",
+   "month",
+   "is_weekend"
+  ],
+  "lag": [
+   "lag_1",
+   "lag_7",
+   "lag_14",
+   "lag_30"
+  ],
+  "rolling": [
+   "rolling_mean_7d",
+   "rolling_mean_14d",
+   "rolling_mean_30d",
+   "rolling_std_7d",
+   "rolling_std_14d",
+   "rolling_std_30d",
+   "rolling_max_7d",
+   "rolling_max_14d",
+   "rolling_max_30d"
+  ],
+  "inventory": [
+   "inventory_level",
+   "inventory_lag1",
+   "inventory_ratio",
+   "days_of_supply",
+   "stockout_flag"
+  ],
+  "context": [
+   "category_enc",
+   "brand_enc",
+   "season_enc",
+   "demand_index"
+  ]
+ }
+}

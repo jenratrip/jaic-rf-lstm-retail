@@ -1,0 +1,98 @@
+{
+ "python": "3.13.16",
+ "numpy": "2.4.6",
+ "pandas": "2.2.3",
+ "tensorflow": "2.21.0",
+ "lightgbm": "4.6.0",
+ "seed": 42,
+ "FAST_MODE": false,
+ "feature_set": "strict",
+ "comparison": "none",
+ "split": "80:20 time-based",
+ "rolling_origin": {
+  "folds": 5,
+  "block_days": 7
+ },
+ "sim_assumptions": {
+  "HOLD_ANNUAL": 0.25,
+  "MARGIN": 0.3,
+  "ORDER_COST": 50.0,
+  "L": 7,
+  "R": 7,
+  "z": 1.65
+ },
+ "runtime_min": 16.2,
+ "rf": {
+  "model": "Random Forest",
+  "best_params": {
+   "n_estimators": "300",
+   "min_samples_split": "5",
+   "min_samples_leaf": "2",
+   "max_features": "0.5",
+   "max_depth": "10",
+   "bootstrap": "True"
+  },
+  "search_space": {
+   "n_estimators": "[100, 200, 300, 500]",
+   "max_depth": "[None, 10, 20, 30]",
+   "min_samples_split": "[2, 5, 10]",
+   "min_samples_leaf": "[1, 2, 4]",
+   "max_features": "['sqrt', 'log2', 0.5]",
+   "bootstrap": "[True, False]"
+  },
+  "n_iter": 20,
+  "cv_splits": 3,
+  "best_cv_mae": 4.526685804274035,
+  "train_time_sec": 58.1,
+  "train_mae": 3.7984839923920837,
+  "holdout_metrics": {
+   "MAE": 4.28970701575677,
+   "RMSE": 5.950809746382311,
+   "MAPE": 11.277757637362926,
+   "WAPE": 10.586593576700137,
+   "sMAPE": 11.08113275687617,
+   "MASE": 0.6152706004187215
+  },
+  "n_features": 42
+ },
+ "lstm": {
+  "model": "LSTM",
+  "best_cfg": {
+   "L": 14,
+   "units": 128,
+   "layers": 1,
+   "dropout": 0.3,
+   "lr": 0.001,
+   "batch": 128,
+   "loss": "huber"
+  },
+  "search_space": {
+   "L": "[7, 14]",
+   "units": "[64, 128]",
+   "layers": "[1, 2]",
+   "dropout": "[0.1, 0.2, 0.3]",
+   "lr": "[0.001, 0.0005]",
+   "batch": "[64, 128]",
+   "loss": "['mse', 'huber']"
+  },
+  "n_iter": 10,
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "epochs_max": 100,
+  "patience": 15,
+  "n_params": 91713,
+  "epochs_run": 46,
+  "best_epoch": 31,
+  "holdout_metrics_main_seed": {
+   "MAE": 4.262517549418633,
+   "RMSE": 5.898819520778243,
+   "MAPE": 11.717031404814078,
+   "WAPE": 10.519492530257587,
+   "sMAPE": 11.271808941492127,
+   "MASE": 0.6257660012350945
+  }
+ }
+}
